@@ -13,7 +13,7 @@ const httpOptions = {
   providedIn: 'root'
 })
 export class TaskService {
-  private apiUrl = 'http://localhost:5003/users/tasks';
+  private apiUrl = 'https://general--backend.herokuapp.com/users/tasks'; //https://general--backend.herokuapp.com/users/tasks or http://localhost:5003/users/tasks
 
   constructor(private http:HttpClient) { 
 

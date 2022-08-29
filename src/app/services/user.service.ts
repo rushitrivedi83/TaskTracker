@@ -4,7 +4,7 @@ import {HttpClient, HttpHeaders} from '@angular/common/http'
   providedIn: 'root'
 })
 export class UserService {
-  private server = "http://localhost:5003/";
+  private server = "https://general--backend.herokuapp.com/"; // https://general--backend.herokuapp.com/ or http://localhost:5003/ 
 
   constructor(private _http:HttpClient) { }
 
